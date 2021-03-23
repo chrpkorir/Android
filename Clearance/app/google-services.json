@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "307109553374",
+    "project_id": "clearance-c6d2a",
+    "storage_bucket": "clearance-c6d2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307109553374:android:8180e5a0452d857eed4e4f",
+        "android_client_info": {
+          "package_name": "com.example.clearance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307109553374-v8m5r7pnkvp1arh62dvllsjjvemohvgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_1NZd62Rml8aruMHH0DrHBqMVN4ndww8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307109553374-v8m5r7pnkvp1arh62dvllsjjvemohvgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:context=".DisplayDetails">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/dpUniversity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/tvUniversity2"
+        app:layout_constraintTop_toTopOf="@+id/tvUniversity2" />
+
+    <TextView
+        android:id="@+id/dpCounty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/tvCounty2"
+        app:layout_constraintTop_toTopOf="@+id/tvCounty2" />
+
+    <TextView
+        android:id="@+id/dpCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/tvCourse2"
+        app:layout_constraintTop_toTopOf="@+id/tvCourse2" />
+
+    <TextView
+        android:id="@+id/dpId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/tvId2"
+        app:layout_constraintTop_toTopOf="@+id/tvId2" />
+
+    <TextView
+        android:id="@+id/dpGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/tvGender2"
+        app:layout_constraintTop_toTopOf="@+id/tvGender2" />
+
+    <TextView
+        android:id="@+id/dpAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/tvAge2"
+        app:layout_constraintTop_toTopOf="@+id/tvAge2" />
+
+    <TextView
+        android:id="@+id/tvCounty2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Your County:"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvCourse2"
+        app:layout_constraintTop_toBottomOf="@+id/tvCourse2" />
+
+    <TextView
+        android:id="@+id/tvCourse2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Your Course:"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvId2"
+        app:layout_constraintTop_toBottomOf="@+id/tvId2" />
+
+    <TextView
+        android:id="@+id/tvId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Your ID:"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvGender2"
+        app:layout_constraintTop_toBottomOf="@+id/tvGender2" />
+
+    <TextView
+        android:id="@+id/tvGender2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Your Gender:"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvAge2"
+        app:layout_constraintTop_toBottomOf="@+id/tvAge2" />
+
+    <TextView
+        android:id="@+id/tvAge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Your Age:"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvName2"
+        app:layout_constraintTop_toBottomOf="@+id/tvName2" />
+
+    <TextView
+        android:id="@+id/tvName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Your Name:"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUniversity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Your University:"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/tvCounty2"
+        app:layout_constraintTop_toBottomOf="@+id/tvCounty2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dpUniversity" />
+
+    <TextView
+        android:id="@+id/dpName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/tvName2"
+        app:layout_constraintTop_toTopOf="@+id/tvName2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
